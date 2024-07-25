@@ -505,7 +505,7 @@ tpl_etc_hysteria_config_json() {
   "auth": {
  	"mode": "passwords",
   "config": [
-      $(echo $users | sed 's/ /", "/g')
+      "$PASSWORD"
     ]
          }
 }
